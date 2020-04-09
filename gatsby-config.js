@@ -7,9 +7,10 @@
 'use strict';
 
 module.exports = {
+  pathPrefix: "/reactps.org",
   siteMetadata: {
-    title: 'React: A JavaScript library for building user interfaces',
-    siteUrl: 'https://reactjs.org',
+    title: 'Purescript react-basic-hooks',
+    siteUrl: 'https://milesfrain.github.io/reactps.org',
     rssFeedTitle: 'React',
     rssFeedDescription: 'A JavaScript library for building user interfaces',
   },
@@ -92,12 +93,6 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-41298772-1',
-      },
-    },
     {
       resolve: 'gatsby-plugin-feed',
       options: {

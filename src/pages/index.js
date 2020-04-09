@@ -50,7 +50,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="React &ndash; A JavaScript library for building user interfaces"
+          title="PureScript react-basic-hooks"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div css={{width: '100%'}}>
@@ -111,7 +111,7 @@ class Home extends Component {
                         fontSize: 60,
                       },
                     }}>
-                    React
+                    purescript-react-basic-hooks
                   </h1>
                   <p
                     css={{
@@ -133,7 +133,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    Docs cloned from reactjs.org
                   </p>
                   <Flex
                     valign="center"
